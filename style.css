@@ -1,0 +1,40 @@
+/* Ukuran font default */
+
+
+/* responsif layar dekstrop */
+@media (min-width: 1025px) {
+/* index */
+.fs-1 {
+    font-size: 18px;
+}
+    .time-line-item-title {
+        font-size: 18px !important;
+    }
+
+    .time-line-item-subtitle, .time-line-item-content {
+        font-size: 14px !important
+    }
+
+    /* about */
+    .services-section .service-description {
+        font-size: 14px !important;
+    }
+
+/* portofolio */
+    .portfolio-wrapper .portfolio-item .portfolio-item-title {
+        font-size: 16px;
+    }
+
+    .portfolio-wrapper .portfolio-item .portfolio-item-description {
+        font-size: 14px;
+    }
+}
+
+/* responsif layar mobile */
+@media (max-width: 1024) {
+    /* about */
+    .resume-section .list-unstyled .row {
+        font-size: 14px;
+    }
+}
+
